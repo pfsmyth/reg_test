@@ -16,8 +16,8 @@
 
 #######################################################################################
 # Jekyll site settings
-title: YOUR BOOK NAME
-author: YOUR AUTHOR NAME
+title: Test Book
+author: Peter Smyth
 email: YOUR EMAIL
 description: >-
   This is an example book built with Jupyter Books.

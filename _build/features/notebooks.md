@@ -1,5 +1,5 @@
 ---
-interact_link: content/C:\Users\pfsmy\OneDrive\UoM\2019\Jupyter_book\reg_test\content\features/notebooks.ipynb
+interact_link: content/C:\Users\Pete_local\OneDrive\UoM\2019\Jupyter_book\reg_test\content\features/notebooks.ipynb
 kernel_name: python3
 has_widgets: false
 title: 'Jupyter notebooks'
@@ -7,8 +7,8 @@ prev_page:
   url: /features/markdown
   title: 'Markdown files'
 next_page:
-  url: 
-  title: ''
+  url: /features/Dictionaries
+  title: 'Dictionaries'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---
 
@@ -95,7 +95,7 @@ ax.legend(custom_lines, ['Cold', 'Medium', 'Hot']);
 <div class="output_subarea" markdown="1">
 
 {:.output_png}
-![png](C%3A/Users/pfsmy/OneDrive/UoM/2019/Jupyter_book/reg_test/_build/images/features/notebooks_2_0.png)
+![png](C%3A/Users/Pete_local/OneDrive/UoM/2019/Jupyter_book/reg_test/_build/images/features/notebooks_2_0.png)
 
 </div>
 </div>
@@ -134,7 +134,7 @@ ax.set_axis_off()
 <div class="output_subarea" markdown="1">
 
 {:.output_png}
-![png](C%3A/Users/pfsmy/OneDrive/UoM/2019/Jupyter_book/reg_test/_build/images/features/notebooks_5_0.png)
+![png](C%3A/Users/Pete_local/OneDrive/UoM/2019/Jupyter_book/reg_test/_build/images/features/notebooks_5_0.png)
 
 </div>
 </div>
@@ -169,7 +169,7 @@ ax.set_axis_off()
 <div class="output_subarea" markdown="1">
 
 {:.output_png}
-![png](C%3A/Users/pfsmy/OneDrive/UoM/2019/Jupyter_book/reg_test/_build/images/features/notebooks_7_0.png)
+![png](C%3A/Users/Pete_local/OneDrive/UoM/2019/Jupyter_book/reg_test/_build/images/features/notebooks_7_0.png)
 
 </div>
 </div>

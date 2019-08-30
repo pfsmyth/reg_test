@@ -1,10 +1,10 @@
 ---
 redirect_from:
   - "/features/dictionaries"
-interact_link: content/C:\Users\pfsmy\OneDrive\UoM\2019\Jupyter_book\reg_test\content\features/Dictionaries.ipynb
+interact_link: content/C:\Users\Pete_local\OneDrive\UoM\2019\Jupyter_book\reg_test\content\features/Dictionaries.ipynb
 kernel_name: python3
 has_widgets: false
-title: 'Copy of Jupyter notebooks'
+title: 'Dictionaries'
 prev_page:
   url: /features/notebooks
   title: 'Jupyter notebooks'

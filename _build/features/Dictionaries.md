@@ -273,3 +273,28 @@ If the key already existed, then we would have simply overwritten the its previo
 
 The value assigned to a dictionary key can be of any data type. So far we have used simple strings and integers.
 
+
+
+<div markdown="1" class="cell code_cell">
+<div class="input_area hidecode" markdown="1">
+```python
+# This is a hidden code cell
+print("Hello World")
+
+```
+</div>
+
+<div class="output_wrapper" markdown="1">
+<div class="output_subarea" markdown="1">
+{:.output_stream}
+```
+Hello World
+```
+</div>
+</div>
+</div>
+
+
+
+### This is a markup cell after the hidden cell
+

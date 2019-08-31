@@ -15,9 +15,9 @@ comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /con
 ---
 
 
-# The Python dictionary structure
+# The Python Dictionary data structure
 
-In Python a dictionary object maps keys to values. A dictionary can hold any number of keys and values but a key cannot be duplicated.
+In Python a dictionary object maps keys to values. A dictionary can hold any number of keys and an associated value, but a key cannot be duplicated, it must be unique.
 
 The following code sections show examples of creating a dictionary object and manipulating the keys and values.
 
@@ -30,6 +30,7 @@ The following code sections show examples of creating a dictionary object and ma
 ```python
 # create an empty dictionary
 myDict = {}
+print(myDict)
 
 
 ```
@@ -47,6 +48,7 @@ myDict = {}
 <div class="input_area" markdown="1">
 ```python
 personDict = {'Name' : 'Peter'}
+print(personDict)
 
 ```
 </div>
@@ -57,6 +59,7 @@ personDict = {'Name' : 'Peter'}
 
 #### I can add more about 'Peter' to the dictionary
 
+Once a dictionary has been created you can addd more keys, but remember that the key name must be unique.
 
 
 
@@ -64,6 +67,7 @@ personDict = {'Name' : 'Peter'}
 <div class="input_area" markdown="1">
 ```python
 personDict['Location'] = 'Manchester'
+personDict['Age'] = '61'
 
 ```
 </div>
@@ -72,7 +76,7 @@ personDict['Location'] = 'Manchester'
 
 
 
-#### I can print all of the keys and values from the dictionary
+#### I can print all of the keys and values from the dictionary as a list of tuples
 
 
 
@@ -89,32 +93,6 @@ print(personDict.items())
 {:.output_stream}
 ```
 dict_items([('Name', 'Peter'), ('Location', 'Manchester')])
-```
-</div>
-</div>
-</div>
-
-
-
-#### I can print all of the keys and values from the dictionary - and make it look a bit nicer
-
-
-
-<div markdown="1" class="cell code_cell">
-<div class="input_area" markdown="1">
-```python
-for item in personDict:
-    print(item, "=", personDict[item])
-
-```
-</div>
-
-<div class="output_wrapper" markdown="1">
-<div class="output_subarea" markdown="1">
-{:.output_stream}
-```
-Name = Peter
-Location = Manchester
 ```
 </div>
 </div>
@@ -163,6 +141,33 @@ print(personDict.values())
 {:.output_stream}
 ```
 dict_values(['Peter', 'Manchester'])
+```
+</div>
+</div>
+</div>
+
+
+
+#### I can print all of the keys and values from the dictionary - and make it look a bit nicer
+
+
+
+<div markdown="1" class="cell code_cell">
+<div class="input_area" markdown="1">
+```python
+# 'item' is simple a made up variable name. The for loop iterates over the keys in the dictionary
+for item in personDict:
+    print(item, "=", personDict[item])
+
+```
+</div>
+
+<div class="output_wrapper" markdown="1">
+<div class="output_subarea" markdown="1">
+{:.output_stream}
+```
+Name = Peter
+Location = Manchester
 ```
 </div>
 </div>
@@ -256,5 +261,15 @@ already exists
 
 
 
-## More on Dictionaries
+#### Checking whether a key exists or not is a very common action.
+
+When we were adding keys, we did so by simply referencing the (new) Key name and assigning a value to it.
+
+If the key already existed, then we would have simply overwritten the its previous value. This would be valid code and would not produce an error.
+
+
+
+## More complex Dictionaries
+
+The value assigned to a dictionary key can be of any data type. So far we have used simple strings and integers.
 

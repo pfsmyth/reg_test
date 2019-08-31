@@ -88,14 +88,6 @@ print(personDict.items())
 ```
 </div>
 
-<div class="output_wrapper" markdown="1">
-<div class="output_subarea" markdown="1">
-{:.output_stream}
-```
-dict_items([('Name', 'Peter'), ('Location', 'Manchester')])
-```
-</div>
-</div>
 </div>
 
 
@@ -112,14 +104,6 @@ print(personDict.keys())
 ```
 </div>
 
-<div class="output_wrapper" markdown="1">
-<div class="output_subarea" markdown="1">
-{:.output_stream}
-```
-dict_keys(['Name', 'Location'])
-```
-</div>
-</div>
 </div>
 
 
@@ -136,14 +120,6 @@ print(personDict.values())
 ```
 </div>
 
-<div class="output_wrapper" markdown="1">
-<div class="output_subarea" markdown="1">
-{:.output_stream}
-```
-dict_values(['Peter', 'Manchester'])
-```
-</div>
-</div>
 </div>
 
 
@@ -162,15 +138,6 @@ for item in personDict:
 ```
 </div>
 
-<div class="output_wrapper" markdown="1">
-<div class="output_subarea" markdown="1">
-{:.output_stream}
-```
-Name = Peter
-Location = Manchester
-```
-</div>
-</div>
 </div>
 
 
@@ -191,14 +158,6 @@ print(x)
 ```
 </div>
 
-<div class="output_wrapper" markdown="1">
-<div class="output_subarea" markdown="1">
-{:.output_stream}
-```
-Peter
-```
-</div>
-</div>
 </div>
 
 
@@ -219,14 +178,6 @@ print(personDict['Name'])
 ```
 </div>
 
-<div class="output_wrapper" markdown="1">
-<div class="output_subarea" markdown="1">
-{:.output_stream}
-```
-Fred
-```
-</div>
-</div>
 </div>
 
 
@@ -249,14 +200,6 @@ else :
 ```
 </div>
 
-<div class="output_wrapper" markdown="1">
-<div class="output_subarea" markdown="1">
-{:.output_stream}
-```
-already exists
-```
-</div>
-</div>
 </div>
 
 
@@ -284,14 +227,6 @@ print("Hello World")
 ```
 </div>
 
-<div class="output_wrapper" markdown="1">
-<div class="output_subarea" markdown="1">
-{:.output_stream}
-```
-Hello World
-```
-</div>
-</div>
 </div>
 
 

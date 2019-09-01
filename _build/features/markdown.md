@@ -1,11 +1,11 @@
 ---
-title: 'Markdown files'
+title: 'Sub Topic - Markdown files'
 prev_page:
   url: /features/features
-  title: 'Features and customization'
+  title: 'Main Topic'
 next_page:
   url: /features/notebooks
-  title: 'Jupyter notebooks'
+  title: 'Sub Topic - Jupyter notebooks'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---
 # Creating book content

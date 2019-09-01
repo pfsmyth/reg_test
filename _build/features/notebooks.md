@@ -2,13 +2,13 @@
 interact_link: content/C:\Users\Pete_local\OneDrive\UoM\2019\Jupyter_book\reg_test\content\features/notebooks.ipynb
 kernel_name: python3
 has_widgets: false
-title: 'Jupyter notebooks'
+title: 'Sub Topic - Jupyter notebooks'
 prev_page:
   url: /features/markdown
-  title: 'Markdown files'
+  title: 'Sub Topic - Markdown files'
 next_page:
   url: /features/Dictionaries
-  title: 'Dictionaries'
+  title: 'Sub Topic - Dictionaries'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---
 

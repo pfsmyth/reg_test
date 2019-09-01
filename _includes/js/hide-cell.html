@@ -54,8 +54,8 @@
             const id = codeCellId(index)
             item.setAttribute('id', id);
             // Insert the button just inside the end of the next div
-            //item.querySelector('div').insertAdjacentHTML('beforeend', hideCodeButton(id))
-            item.querySelector('div').insertAdjacentHTML('afterbegin', hideCodeButton(id))
+            item.querySelector('div').insertAdjacentHTML('beforeend', hideCodeButton(id))
+            
             
 
             // Set up the visibility toggle

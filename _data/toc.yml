@@ -40,20 +40,20 @@
 - divider: true
 
 # Add a header and sample content section
-- header: Demo textbook
+- header: The Book Title
 
 # A chapter w/ a collection of sections beneath it
-- title: Features and customization
+- title: Main Topic
   url: /features/features
   not_numbered: true
   expand_sections: true
   sections:
-  - title: Markdown files
+  - title: Sub Topic - Markdown files
     url: /features/markdown
     not_numbered: true
-  - title: Jupyter notebooks
+  - title: Sub Topic - Jupyter notebooks
     url: /features/notebooks
     not_numbered: true
-  - title: Dictionaries
+  - title: Sub Topic - Dictionaries
     url: /features/Dictionaries
     not_numbered: true
